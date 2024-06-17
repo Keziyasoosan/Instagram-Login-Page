@@ -82,9 +82,46 @@ img{
     left: 35%;
     font-size: 14px;
     color: #003569;
+
+}
+.signup{
+    padding: 0px;
+    border: 2px solid rgb(221,220,220);
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 11px;
+    background: #fafafa;
+    position: absolute;
+    top:95%;
+    width: 250px;
+    text-align: right;
+    font-family: 'roboto',sans-serif;
+    font-size: 15px;
+    color: #262626;
+
+
     
 }
+.signup a{
+    color: #3897f0;
+    font-weight: bold;
+    font-size: 16px;
 
+}
+.final{
+    position: absolute;
+    top: 111%;
+    left: 40%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13.5px;
+}
+.apple{
+    position: absolute;
+    top: 122%;
+    left: 5%;
+    width: 155px;
+    height: 45px;
+}
 
 
 
