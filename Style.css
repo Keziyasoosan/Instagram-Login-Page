@@ -30,8 +30,60 @@ body{
 }
 button{
     position: absolute;
+    padding: 0px;
+    border-radius: 5px;
+    border: white;
+    height: 7%;
+    left: 32px;
+     cursor: pointer;
+     color: whitesmoke;
+     background-color: rgb(8,170,245);
+     font-family:latha;
+     font-style:bold;
+     font-size: 15px;
+     width: 80%;    
 }
+input{
+    padding:10px;
+    border: 2px solid rgb(221,220,220);
+    position: relative;
+    width:150%;
+    background: #fafafa;
+    font-size:12px;
 
+}
+h4{
+    font-family: calibri light;
+    position: relative;
+    opacity: 50%;
+
+}
+a{
+    text-decoration: none;
+    font-family: calibri light;
+
+}
+img{
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    top:76%;
+    left: 27%;
+}
+.loginfb{
+    font-weight: 550;
+    font-size: 14px;
+    color: #385185;
+    font-family: 'Roboto',sans-serif;
+
+}
+.resetpwd{
+    position: absolute;
+    left: 35%;
+    font-size: 14px;
+    color: #003569;
+    
+}
 
 
 
