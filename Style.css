@@ -1,27 +1,72 @@
-body{
-    background-image: url('img/page.png');
-    background-repeat: no-repeat;
-    background-position: 28% -5%;
-    background-size: 400px 600px;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    background-color: rgb(243,238,238);
+
+}
+.container{
+    border: 2px solid red;
+
+ width:55%;
+ height: 400px;
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ display: flex;
+}
+.left{
+border: 2px solid red;
+width: 50%;
+margin: 10px;
+}
+
+.right{
+    border: 2px solid red;
+    margin:40%;
+    margin: 10px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.right-content{
+    width: 50%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    height: 70%;
+
+}
+/*body{
+    background-image: url('img/page.png'),url('img/5e04169b9308.jpg');
+    background-repeat: no-repeat;
+    background-position: 27% -5%;
+    background-size: 400px 600px ;
+    background-blend-mode: screen;
+    
+}
+
 .main-box{
     padding: 0px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 60px;
     padding-bottom: 50px;
     border: 1px solid rgb(221,220,220);
     width:250px;
-    height: 350px;
+    height: 315px;
     background-color: rgb(var(--d87,225,255));
 
 }
 .insta{
     position: absolute;
     width: 65%;
-    height: 20%;
+    height: 13%;
     top: 3%;
     left:18%;
 }
+
 body{
     position: absolute;
     top:6%;
@@ -80,6 +125,7 @@ img{
 .resetpwd{
     position: absolute;
     left: 35%;
+
     font-size: 14px;
     color: #003569;
 
@@ -124,14 +170,13 @@ img{
 }
 .google{
     position: absolute;
-    top: 122px;
+    top: 122%;
     left: 53%;
     width: 155px;
     height: 45px;
 
 }
-
-
+*/
 
 
 
